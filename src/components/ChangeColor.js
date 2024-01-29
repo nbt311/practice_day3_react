@@ -35,7 +35,7 @@ function ChangeColor(){
     useEffect(() => {
         const timeoutId = setTimeout(() => {
             setColor("pink");
-        }, 1000);
+        }, 5000);
         return () => clearTimeout(timeoutId);
     }, []);
     return (
