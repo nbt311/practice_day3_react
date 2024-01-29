@@ -1,6 +1,7 @@
 import Welcome from "./components/Welcome";
 import AddComponent from "./components/AddComponent";
 import Counter from "./components/Counter";
+import ChangeColor from "./components/ChangeColor";
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <Welcome/>
     <AddComponent firstNumber={1} secondNumber={2} />
     <Counter/>
+    <ChangeColor/>
   </div>
   );
 }
